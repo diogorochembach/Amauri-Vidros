@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #005086;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #c7d8e6;
+}
+
+/* Estilos do banner */
+#banner {
+  background-image: url("https://www.vidracariacuritiba.emp.br/public/img/default/vidracarias/fachada-de-vidro-temperado_2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background-color: #ffd200;
+  color: #000;
+  margin-top: 50px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #ffb200;
+}
+
+/* Estilos dos serviços */
+#servicos {
+  padding: 50px;
+}
+
+#servicos h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#servicos ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#servicos li {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Estilos dos comentários */
+#comentarios {
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+
+#comentarios h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.comentario {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.comentario p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilos da galeria de obras */
+#galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+#galeria img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Estilos do formulário de contato */
+#contato {
+  padding: 50px;
+}
+
+#contato h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 30px 10px 0 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 30px;
+}
+
+.coluna {
+  width: calc(33.33% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.coluna:last-child {
+  margin-right: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.redes-sociais {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.redes-sociais li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociais a {
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.redes-sociais a:hover {
+  transform: translateY(-3px);
+}
+
+.marcaFooter {
+  background-color: #2c3b50;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
